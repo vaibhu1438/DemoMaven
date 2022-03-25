@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: tests.TDLogInTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 2.975 s <<< FAILURE! - in tests.TDLogInTest
+openTDPage(tests.TDLogInTest)  Time elapsed: 2.796 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-G84QL9LV', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at tests.TDLogInTest.openTDPage(TDLogInTest.java:20)
+
